@@ -1,90 +1,20 @@
-/* Glass effects */
+/* Glass effects /
 @utility glass-1 {
-  background: linear-gradient(
-    to bottom,
-    hsl(224, 71.4%, 4.1%),
-    hsl(220.9, 39.3%, 11%),
-    hsl(215, 27.9%, 16.9%),
-    hsl(216.9, 19.1%, 26.7%),
-    hsl(215, 13.8%, 34.1%),
-    hsl(220, 8.9%, 46.1%),
-    hsl(217.9, 10.6%, 64.9%),
-    hsl(216, 12.2%, 83.9%),
-    hsl(220, 13%, 91%),
-    hsl(220, 14.3%, 95.9%),
-    hsl(210, 20%, 98%)
-  );
-  @apply border border-border;
+  @apply border-border from-card/80 to-card/40 dark:border-border/10 dark:border-b-border/5 dark:border-t-border/20 dark:from-card/5 dark:to-card/0 border bg-linear-to-b;
 }
 @utility glass-2 {
-  background: linear-gradient(
-    to bottom,
-    hsl(224, 71.4%, 4.1%),
-    hsl(220.9, 39.3%, 11%),
-    hsl(215, 27.9%, 16.9%),
-    hsl(216.9, 19.1%, 26.7%),
-    hsl(215, 13.8%, 34.1%),
-    hsl(220, 8.9%, 46.1%),
-    hsl(217.9, 10.6%, 64.9%),
-    hsl(216, 12.2%, 83.9%),
-    hsl(220, 13%, 91%),
-    hsl(220, 14.3%, 95.9%),
-    hsl(210, 20%, 98%)
-  );
-  @apply border border-border;
+  @apply border-border from-card/100 to-card/80 dark:border-border/10 dark:border-b-border/5 dark:border-t-border/20 dark:from-card/10 dark:to-card/5 border bg-linear-to-b;
 }
 @utility glass-3 {
-  background: linear-gradient(
-    to bottom,
-    hsl(224, 71.4%, 4.1%),
-    hsl(220.9, 39.3%, 11%),
-    hsl(215, 27.9%, 16.9%),
-    hsl(216.9, 19.1%, 26.7%),
-    hsl(215, 13.8%, 34.1%),
-    hsl(220, 8.9%, 46.1%),
-    hsl(217.9, 10.6%, 64.9%),
-    hsl(216, 12.2%, 83.9%),
-    hsl(220, 13%, 91%),
-    hsl(220, 14.3%, 95.9%),
-    hsl(210, 20%, 98%)
-  );
-  @apply border border-border;
+  @apply border-border from-card/30 to-card/20 dark:border-border/10 dark:border-t-border/20 dark:border-b-border/5 dark:from-primary/5 dark:to-primary/2 border bg-linear-to-b;
 }
 @utility glass-4 {
-  background: linear-gradient(
-    to bottom,
-    hsl(224, 71.4%, 4.1%),
-    hsl(220.9, 39.3%, 11%),
-    hsl(215, 27.9%, 16.9%),
-    hsl(216.9, 19.1%, 26.7%),
-    hsl(215, 13.8%, 34.1%),
-    hsl(220, 8.9%, 46.1%),
-    hsl(217.9, 10.6%, 64.9%),
-    hsl(216, 12.2%, 83.9%),
-    hsl(220, 13%, 91%),
-    hsl(220, 14.3%, 95.9%),
-    hsl(210, 20%, 98%)
-  );
-  @apply border border-border border-b-input/90;
+  @apply border-border border-b-input/90 from-card/60 to-card/20 dark:border-border/10 dark:border-t-border/30 dark:from-primary/10 dark:to-primary/5 border bg-linear-to-b dark:border-b-0;
 }
 @utility glass-5 {
-  background: linear-gradient(
-    to bottom,
-    hsl(224, 71.4%, 4.1%),
-    hsl(220.9, 39.3%, 11%),
-    hsl(215, 27.9%, 16.9%),
-    hsl(216.9, 19.1%, 26.7%),
-    hsl(215, 13.8%, 34.1%),
-    hsl(220, 8.9%, 46.1%),
-    hsl(217.9, 10.6%, 64.9%),
-    hsl(216, 12.2%, 83.9%),
-    hsl(220, 13%, 91%),
-    hsl(220, 14.3%, 95.9%),
-    hsl(210, 20%, 98%)
-  );
-  @apply border border-border border-b-input;
+  @apply border-border border-b-input from-card/100 to-card/20 dark:border-border/10 dark:border-t-border/30 dark:from-primary/15 dark:to-primary/5 border bg-linear-to-b dark:border-b-0;
 }
-/* Fade effects */
+/ Fade effects */
 @utility fade-x {
   mask-image: linear-gradient(
     to right,
